@@ -1,15 +1,15 @@
 class KunPeng < Formula
   desc "An ultra-fast, low-memory footprint and accurate taxonomy classifier for all"
   homepage "https://github.com/eric9n/Kun-peng"
-  version "v0.7.8"
+  version "v0.7.9"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/eric9n/Kun-peng/releases/download/v0.7.8/kun_peng-v0.7.8-x86_64-apple-darwin"
-      sha256 "906aa1094ad6a2a949aa92e71efb1a5ebc889fe565d5c8119ff9c8c09053746f"
+      url "https://github.com/eric9n/Kun-peng/releases/download/v0.7.9/kun_peng-v0.7.9-x86_64-apple-darwin"
+      sha256 "12d144f4973d2c667fedf772061c3882ca84bb522a1f13e3bc8252cb5de0d64a"
     else
-      url "https://github.com/eric9n/Kun-peng/releases/download/v0.7.8/kun_peng-v0.7.8-aarch64-apple-darwin"
-      sha256 "fd5d69255d703df92ac647bb573a6110cc8505b7e7988af2297f76693590660e"
+      url "https://github.com/eric9n/Kun-peng/releases/download/v0.7.9/kun_peng-v0.7.9-aarch64-apple-darwin"
+      sha256 "e657107241dba6f87b1f2974098971ca1a965a589f7781a5f51aa97f499c673e"
     end
   end
 
